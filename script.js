@@ -48,7 +48,7 @@ function updateScrollbarProgress() {
     }
 }
 
-// Attach event listeners to inputs
+
 taskInputs.forEach(input => {
     input.addEventListener("input", updateScrollbarProgress);
 });

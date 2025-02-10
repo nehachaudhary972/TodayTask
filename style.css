@@ -130,6 +130,7 @@ h1 span{
     position: absolute;
     top: 0;
     left: 0;
+    width: var(--progress, 0%);
     height: 100%; /* Progress based on CSS variable */
     background-color: orange;
     transition: width 0.3s ease;
